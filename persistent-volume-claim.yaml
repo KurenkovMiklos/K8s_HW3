@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: shared-pvc-with-blackjack-and-hookers
+  name: shared-pvc-with-blackjack
   namespace: kurenkov-miklos
 spec:
   accessModes:

@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: shared-pv-with-blackjack-and-hookers
+  name: shared-pv-with-blackjack
   namespace: kurenkov-miklos
 spec:
   capacity:

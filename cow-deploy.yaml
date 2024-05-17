@@ -18,7 +18,7 @@ spec:
       volumes:
       - name: shared-data
         persistentVolumeClaim:
-          claimName: shared-pvc-with-blackjack-and-hookers
+          claimName: shared-pvc-with-blackjack
       containers:
       - name: nginx
         image: nginx:latest
