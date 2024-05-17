@@ -9,5 +9,3 @@ spec:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
   storageClassName: manual
-  hostPath:
-    path: "/mnt/data"
