@@ -2,6 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
    name: cowsay-service
+   namespace: kurenkov-miklos
 spec:
    selector:
       app: cowsay-hw
